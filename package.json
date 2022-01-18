@@ -1,15 +1,19 @@
 {
-  "name": "aniwurk",
+  "name": "hova",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-player": "^2.9.0"
   }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html,
 body {
   padding: 0;
@@ -13,4 +14,33 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.bigTitle {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  font-weight: bold;
+}
+
+.smallTitle {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.inforTitle {
+  color: #fff;
+  font-size: 25px;
+}
+
+.infoContent {
+  color: #fff;
+}
+
+@media only screen and (max-width: 425px) {
+  .bigTitle {
+    font-size: 40px;
+    text-align: center;
+  }
 }
