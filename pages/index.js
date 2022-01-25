@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Hova</title>
-        <meta name="description" content="Aniwurk Landing Page" />
+        <meta name="description" content="HOVA APP Landing Page" />
         <link rel="icon" href="/HOVALOGO.png" />
       </Head>
 

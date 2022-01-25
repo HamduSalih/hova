@@ -29,9 +29,9 @@ export default class KnowMore extends Component {
 
         <div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            url="http://ungodev.org/hova/hovademo.mp4"
             controls={true}
-            width='100%'
+            width="100%"
           />
         </div>
       </div>
